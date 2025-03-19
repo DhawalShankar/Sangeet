@@ -33,26 +33,7 @@ Sangeet is a **full-stack music streaming application** built using the **MERN (
 ### 6. **Backend & Database**
 - **Node.js & Express.js**: RESTful API with secure authentication and optimized routing.
 - **MongoDB with Mongoose**: NoSQL database for scalable and efficient data storage.
-- **Cloudinary Integration**: Stores album covers and song files in the cloud for faster streaming.
-
-### 7. **Real-Time Features**
-- **Live Lyrics Display**: Fetches and syncs lyrics in real time using a third-party API.
-- **Activity Feed**: Displays user activity like recent songs played and playlist additions.
-
-### 8. **Admin Panel & Song Upload**
-- **Admin Dashboard**: Manage users, songs, and reports.
-- **Upload & Edit Songs**: Admins can upload music files and edit song metadata.
-- **Report Handling**: Users can report inappropriate content, and admins can take action.
-
-## Tech Stack
-- **Frontend**: React.js, Tailwind CSS, Framer Motion
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (with Mongoose ORM)
-- **Authentication**: JWT, bcrypt, Google OAuth
-- **Cloud Storage**: Cloudinary (for media storage)
-- **State Management**: React Context API / Redux (if needed)
-
-## Installation & Setup
+- **Cloudinar## Installation & Setup
 ### **1. Clone the Repository**
 ```sh
 git clone https://github.com/your-username/sangeet.git
@@ -100,9 +81,26 @@ npm start
 ```
 
 ### **5. Open in Browser**
-```
-http://localhost:3000
-```
+
+y Integration**: Stores album covers and song files in the cloud for faster streaming.
+
+### 7. **Real-Time Features**
+- **Live Lyrics Display**: Fetches and syncs lyrics in real time using a third-party API.
+- **Activity Feed**: Displays user activity like recent songs played and playlist additions.
+
+### 8. **Admin Panel & Song Upload**
+- **Admin Dashboard**: Manage users, songs, and reports.
+- **Upload & Edit Songs**: Admins can upload music files and edit song metadata.
+- **Report Handling**: Users can report inappropriate content, and admins can take action.
+
+## Tech Stack
+- **Frontend**: React.js, Tailwind CSS, Framer Motion
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (with Mongoose ORM)
+- **Authentication**: JWT, bcrypt, Google OAuth
+- **Cloud Storage**: Cloudinary (for media storage)
+- **State Management**: React Context API / Redux (if needed)
+
 
 ## Future Enhancements
 - **Offline Mode**: Allow users to download songs for offline playback.
@@ -111,9 +109,6 @@ http://localhost:3000
 
 ## Contributing
 If you'd like to contribute to **Sangeet**, feel free to fork the repository, make changes, and submit a pull request!
-
-## License
-This project is licensed under the MIT License.
 
 ---
 
