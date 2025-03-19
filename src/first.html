@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeet App</title>
+    <link rel="stylesheet" href="output.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between p-4 bg-gray-800 shadow-lg">
+        <h1 class="text-xl font-bold">Sangeet</h1>
+        <div class="flex gap-2">
+            <input id="search-input" type="text" class="bg-gray-700 text-white p-2 rounded" placeholder="Search music...">
+            <button id="search-btn" class="bg-blue-500 hover:bg-blue-600 p-2 rounded">🔍</button>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="p-4">
+        <h2 class="text-2xl font-semibold mb-4">Trending Music</h2>
+        <div id="music-list" class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-gray-800 p-4 flex flex-col items-center rounded-lg">
+                <img src="cover1.jpg" class="w-24 h-24 rounded-lg" alt="Song 1 Cover">
+                <p class="mt-2 text-center">Song 1</p>
+                <button class="mt-2 bg-green-500 hover:bg-green-600 p-2 rounded play-btn" data-src="song1.mp3">▶</button>
+            </div>
+            <div class="bg-gray-800 p-4 flex flex-col items-center rounded-lg">
+                <img src="cover2.jpg" class="w-24 h-24 rounded-lg" alt="Song 2 Cover">
+                <p class="mt-2 text-center">Song 2</p>
+                <button class="mt-2 bg-green-500 hover:bg-green-600 p-2 rounded play-btn" data-src="song2.mp3">▶</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Now Playing Bar -->
+    <div id="now-playing" class="fixed bottom-16 left-0 w-full bg-gray-800 p-3 flex items-center justify-between">
+        <p id="song-title" class="text-lg">Now Playing: None</p>
+        <audio id="audio-player" controls class="hidden"></audio>
+        <button id="pause-btn" class="bg-red-500 hover:bg-red-600 p-2 rounded">⏸</button>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <footer class="flex justify-around p-3 bg-gray-800 fixed bottom-0 w-full">
+        <button class="p-2">🏠</button>
+        <button class="p-2">🎵</button>
+        <button class="p-2">📚</button>
+    </footer>
+</body>
+</html>
